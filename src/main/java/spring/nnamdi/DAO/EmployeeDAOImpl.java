@@ -15,12 +15,14 @@ public class EmployeeDAOImpl implements EmployeeDAO {
         employeeVO.setId(1);
         employeeVO.setFirstName("Shelly");
         employeeVO.setLastName("Bully");
+        employeeVO.setEmail("bully@gmail.com");
         employees.add(employeeVO);
 
         EmployeeVO employeeVO1 = new EmployeeVO();
         employeeVO1.setId(2);
         employeeVO1.setFirstName("Jack");
         employeeVO1.setLastName("Jill");
+        employeeVO1.setEmail("jack@gmail.com");
         employees.add(employeeVO1);
 
         return employees;

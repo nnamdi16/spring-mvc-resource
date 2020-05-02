@@ -9,13 +9,13 @@ import java.util.List;
 
 @Service
 public class EmployeeManagerImpl implements EmployeeManager {
-    @Autowired
+//    @Autowired
     private EmployeeDAO employeeDAO;
 
-//    @Autowired
-//    public void setEmployeeDAO(EmployeeDAO employeeDAO) {
-//        this.employeeDAO = employeeDAO;
-//    }
+    @Autowired
+    public void setEmployeeDAO(EmployeeDAO employeeDAO) {
+        this.employeeDAO = employeeDAO;
+    }
 
     @Override
     public List<EmployeeVO> getAllEmployees() {

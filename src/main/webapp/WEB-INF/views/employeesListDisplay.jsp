@@ -26,6 +26,7 @@
                 <td>${employee.id}</td>
                 <td>${employee.firstName}</td>
                 <td>${employee.lastName}</td>
+                <td>${employee.email}</td>
             </tr>
         </c:forEach>
     </table>
