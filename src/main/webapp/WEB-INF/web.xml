@@ -14,3 +14,4 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 </web-app>
+<!--Dsipatcher servlet needs to be declared and mapped for processing request either using java or web.xml configuration-->

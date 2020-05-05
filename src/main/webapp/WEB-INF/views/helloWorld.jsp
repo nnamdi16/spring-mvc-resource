@@ -10,6 +10,7 @@
 <%@ taglib prefix="x" uri="http://java.sun.com/jsp/jstl/xml" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt" %>
 <%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 
 <html>
 <head>
@@ -17,5 +18,6 @@
 </head>
 <body>
     <h1>Welcome message:<c:out value="${message}"></c:out> </h1>
+    <spring:eval expression="@propertyConfigurer.getProperty('lbl.page')"/>
 </body>
 </html>
